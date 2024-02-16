@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+body {
+    color: #000;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+#main-container {
+    background-color: aquamarine;
+    width: 70%;
+    margin: 100px;
+    padding: 30px 50px;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+#main-container .title {
+    width: 35%;
+    margin: 0 auto;
+}
+#main-container .title h1 {
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    font-weight: 600px;
+    border-bottom: 5px solid red;
+}
+.first-section, .second-section {
+    margin: 30px 0;
+    width: 100%;
+    display: flex;
+}
+.first-section > .container {
+    width: 50%;
+    border: 2px solid #000;
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 10px;
+}
+.first-section > .container .heading h2 {
+    margin-bottom: 10px;
+    display: inline-block;
+    border-bottom: 2px solid #000;
+    font-size: 24px;
+}
+input {
+    font-size: 16px;
+    padding: 10px;
+}
+.second-section > .container {
+    width: 50%;
+    border: 2px solid #000;
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 10px;
+}
+.second-section > .container .heading h2 {
+    margin-bottom: 10px;
+    display: inline-block;
+    border-bottom: 2px solid #000;
+    font-size: 24px;
+}
+.container.deleted {
+    color: #050505;
+    background-color: burlywood;
+}

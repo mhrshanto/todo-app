@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Todo List Web Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="main-container">
+        <div class="title"><h1>To-Do List Web Aplication</h1></div>
+        <section class="first-section">
+            <div class="container">
+                <div class="heading">
+                    <h2>Task List</h2>
+                </div>
+                <div class="list-body">
+                    
+                </div>
+            </div>
+            <div class="container">
+                <div class="heading">
+                    <h2>Completed Task</h2>
+                </div>
+                <div class="body">
+                    <div class="task-field">
+                        <label for="task"></label>
+                        <input type="checkbox" name="task" id="task"> Knowledge Buildup
+                    </div>
+                    <div class="task-field">
+                        <label for="task"></label>
+                        <input type="checkbox" name="task" id="task"> Eating
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="second-section">
+            <div class="container">
+                <div class="heading">
+                    <h2>Add Your Task</h2>
+                </div>
+                <div class="input_body">
+                    <input id="todo-task" type="text">
+                    <input onclick="addTask()" type="button" value="Add Task">
+                </div>
+            </div>
+            <div class="container deleted">
+                <div class="heading">
+                    <h2>Deleted Task</h2>
+                </div>
+                <div class="body">
+                    <div class="task-field">
+                        <label for="task"></label>
+                        <input type="checkbox" name="task" id="task"> Knowledge Buildup
+                    </div>
+                    <div class="task-field">
+                        <label for="task"></label>
+                        <input type="checkbox" name="task" id="task"> Eating
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+
+    <button onclick="seeWhat();">Click Me</button>
+
+    <script src="main.js"></script>
+</body>
+</html>
